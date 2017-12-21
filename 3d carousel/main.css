@@ -1,0 +1,29 @@
+body {
+        font-family:cursive;
+        font-size:20px;
+        color:#9999ff;
+        background:#ccc;
+    text-align:center;
+      }
+
+
+      #carousel {
+        margin-left:15%;
+        width:960px;
+        height:750px;
+        position:center;
+        clear:both;
+        overflow:hidden;
+        background:#ccc;
+      }
+      #carousel img {
+        height:500px;
+        width:700px;
+        visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+        position:center;
+      }
+ #callback-output {
+        height:250px;
+        overflow:scroll;
+      }

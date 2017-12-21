@@ -1,0 +1,41 @@
+#calendar {
+  width: 130px;
+  height: 180px;
+  background-color: RGB(171,241,95);
+  border-radius: 5%;
+
+
+}
+
+#calendar>p{
+font-family: verdana, arial, sans-serif;
+padding: 10px 0;
+margin: 0;
+color: #464745;
+text-align: center;
+
+
+}
+
+#calendar-dag{
+ font-size: 16px;
+
+}
+
+#calendar-month-year{
+ font-size: 14px;
+
+}
+
+#calendar-datum{
+  font-size: 64px;
+  padding-top: 10px;
+  padding-bottom: 0;
+
+}
+#event{
+width: 130px;
+height: 180px;
+background-color:blue;
+border-radius: 5%;
+}
